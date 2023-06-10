@@ -5,8 +5,8 @@ Documentação do git  para ajudar nos comandos.
 git init: Ele inicicia o arquivo ".git/" para controlar a pasta.
 
 git status: Ele é responsável por validar os arquivos modificados dentro do projeto
-    - Vermelho: para adicionar
-    - Verde: adicionado
+    - Vermelho: Mostra os arquivos modificados
+    - Verde: Mostra os arquivos que foram adicionados pelo "git add".
 
 git add <nome_do_arquivo.extensão>: Ele é responsável por coloca o arquivo modificado em uma area segura.
 

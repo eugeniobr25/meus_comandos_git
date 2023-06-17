@@ -1,66 +1,103 @@
-# Documentação <font color="#ffff00">git</font>
+# Documentação de git
 ![git_banner](https://github.com/eugeniobr25/Estudo_de_Layout_com_CSS_Flex_e_Grid/assets/132760301/fe90ded4-5a7f-45f5-9740-138283a40152)
 
-<br>
-
-### Documentação do git para ajudar nos comandos. 
+## Comanandos de Git
+Principais comandos do git para ajudar no dia a dia. 
 <hr>
 <br>
 
-### <font color="#ffff00">git init</font>: Ele inicicia o arquivo ".git/" para controlar a pasta.
+### Inicia o arquivo ".git/" para controlar a pasta.
+
+````
+git init
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git status</font>: Ele é responsável por validar os arquivos modificados dentro do projeto
+### Validar os arquivos modificados dentro do projeto
+````
+git status
+````
 
-1. <font color="#ff0000">Vermelho</font>: Mostra os arquivos modificados.
-
-2. <font color="#90ee90">Verde</font>: Mostra os arquivos que foram adicionados pelo "git add".
+##### - Vermelho: Mostra os arquivos adicionados, modificados ou excluidos. 
+##### - Verde: Mostra os arquivos que foram adicionados pelo "git add", que estão preparados para serem commitados. <font color="#ffff00">
 <hr>
 <br>
 
-### <font color="#ffff00">git add <nome_do_arquivo.extensão></font>: Ele é responsável por coloca o arquivo modificado em uma area segura.
+### Coloca o arquivo modificado em uma area segura.
+````
+git add <nome_do_arquivo.extensão>
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git commit -m "<texto_da_modificação"</font>: Ele é responsavel por criar uma nova versão do projeto com as referencias do criador.
+### Criar uma nova versão do projeto com as referencias do criador.
+````
+git commit -m "<texto_da_modificação"
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git log</font>: Validar os meus comentarios e modificações.
+### Validar os meus comentarios e modificações.
+````
+git log
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git checkout -b <nome_da_nova_branch></font>: Cria uma nova branch/ramificação.
+### Cria uma nova branch/ramificação.
+````
+git checkout -b <nome_da_nova_branch>
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git checkout <nome_da_branch></font>: Muda de branch/ramificação.
+### Muda de branch/ramificação.
+````
+git checkout <nome_da_branch>
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git merge <nome_da_branch></font>: Ele adiciona a branch atual o conteúdo de outra(s) branch(s)
+### Adiciona a branch atual o conteúdo de outra(s) branch(s).
+````
+git merge <nome_da_branch>
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git clone <url></font>: Baixa o projeto do repositório.<hr>
+### Baixa o projeto do repositório.
+````
+git clone <url>
+````
 
-### <font color="#ffff00">git push</font>: envia alteração para o repositório.
+### Envia alteração para o repositório.
+````
+git push
+````
 <hr>
 <br>
 
-### <font color="#ffff00">git pull</font>: Puxa as alterações do repositório.
+### Puxa as alterações do repositório.
+````
+git pull
+````
 <hr>
 <br>
 
-# <font color="#ff0000">Erros</font>: 
+### Paniel para visualização das branchs e suas respectivas alterações.
+````
+gitk
+````
+# Erros: 
+````
+git config --global use.name "<seu_nome>"
+````
+````
+git config --global use.email "<seu_email>"
+````
 
-<font color="#ffff00">git config --global use.name "<seu_nome>"</font>
-<hr>
-<br>
-
-<font color="#ffff00">git config --global use.email "<seu_email>"</font>
-<hr>
-<br>
-
-## 403: Apagando as credencias, gerenciamento de credenciais
+## Apagando as credencias, gerenciamento de credenciais
+````
+ERRO:403
+````

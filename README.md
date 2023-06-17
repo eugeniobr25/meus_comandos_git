@@ -97,7 +97,7 @@ git config --global use.name "<seu_nome>"
 git config --global use.email "<seu_email>"
 ````
 
-## Apagando as credencias, gerenciamento de credenciais
+### Apagando as credencias, gerenciamento de credenciais
 ````
 ERRO:403
 ````

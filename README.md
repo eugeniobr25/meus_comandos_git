@@ -91,10 +91,10 @@ gitk
 ````
 # Erros: 
 ````
-git config --global use.name "<seu_nome>"
+git config --global user.name "<seu_nome>"
 ````
 ````
-git config --global use.email "<seu_email>"
+git config --global user.email "<seu_email>"
 ````
 
 ### Apagando as credencias, gerenciamento de credenciais
